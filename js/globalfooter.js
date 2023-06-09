@@ -1,5 +1,5 @@
 function showFooter() {
-    const footer = document.getElementById('header');
+    const footer = document.getElementById('footer');
     const footer_div = document.createElement("div");
     footer_div.classname = "globalFooter";
     footer_div.innerHTML =  
@@ -16,6 +16,6 @@ function showFooter() {
 '             Neocities'+
 '         </a>.'+
 '     </footer>';
-    footer_div.appendChild=(footer_div);
+    footer.appendChild(footer_div);
 }
-window.onload = showFooter;
+setTimeout(showFooter(),2);
