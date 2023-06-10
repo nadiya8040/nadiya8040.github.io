@@ -43,41 +43,73 @@ function showNav() {
     const l1 = document.createElement("li");
     const l2 = document.createElement("li");
     const l3 = document.createElement("li");
+    const l4 = document.createElement("li");
+    const l5 = document.createElement("li");
+    const l6 = document.createElement("li");
+    const l7 = document.createElement("li");
 
     //#endregion
     //#region li class="nav-item"
     l1.className = "nav-item";
     l2.className = "nav-item";
     l3.className = "nav-item";
+    l4.className = "nav-item";
+    l5.className = "nav-item";
+    l6.className = "nav-item";
+    l7.className = "nav-item";
 
     //#endregion
     //#region a
     const a1 = document.createElement("a");
     const a2 = document.createElement("a");
     const a3 = document.createElement("a");
+    const a4 = document.createElement("a");
+    const a5 = document.createElement("a");
+    const a6 = document.createElement("a");
+    const a7 = document.createElement("a");
 
     //#endregion
     //#region a class="nav-link"
     a1.className = "nav-link";
     a2.className = "nav-link";
     a3.className = "nav-link";
+    a4.className = "nav-link";
+    a5.className = "nav-link";
+    a6.className = "nav-link";
+    a7.className = "nav-link";
     //#endregion
     //#region a href
     a1.href = "index.html";
     a2.href = "introduction.html";
     a3.href = "games.html";
+    a4.href = "series.html";
+    a5.href = "characters.html";
+    a6.href = "artworks.html";
+    a7.href = "fanarts.html";
     //#endregion
     //#region a innerHTML
     a1.innerHTML = "Home";
     a2.innerHTML = "Introduction";
     a3.innerHTML = "Games";
+    a4.innerHTML = "Series";
+    a5.innerHTML = "Characters";
+    a6.innerHTML = "Artworks";
+    a7.innerHTML = "Fanarts";
     //#endregion
     l1.appendChild(a1);
     l2.appendChild(a2);
     l3.appendChild(a3);
+    l4.appendChild(a4);
+    l5.appendChild(a5);
+    l6.appendChild(a6);
+    l7.appendChild(a7);
     nav_ul.appendChild(l1);
     nav_ul.appendChild(l2);
     nav_ul.appendChild(l3);
+    nav_ul.appendChild(l4);
+    nav_ul.appendChild(l5);
+    nav_ul.appendChild(l6);
+    nav_ul.appendChild(l7);
 
     //#endregion
     //#region Gap
