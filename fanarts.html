@@ -8,6 +8,54 @@
     <title>Nadiya's Fanarts</title>
     <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="style/bootstrap.css">
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 
 <body>
@@ -18,150 +66,222 @@
       <div class="fanarts _in_up">
         <div class="container">
           <ul class="image-gallery">
-            <li>
-              <img src="https://cdn.discordapp.com/attachments/958281465903317002/972092798926983198/nadiya.png" width=30% height=30%>
-              <div class="overlay"><span>Invinciblelollipop</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08f1f431-7652-4e4c-b5af-d2040c95d3d7/dejtnow-9f73aae4-a31c-40d6-9da9-1f1e94c1dd3a.png/v1/fill/w_1264,h_632,q_70,strp/g__crewmate_buddies_by_artsy_mii_dejtnow-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzAwIiwicGF0aCI6IlwvZlwvMDhmMWY0MzEtNzY1Mi00ZTRjLWI1YWYtZDIwNDBjOTVkM2Q3XC9kZWp0bm93LTlmNzNhYWU0LWEzMWMtNDBkNi05ZGE5LTFmMWU5NGMxZGQzYS5wbmciLCJ3aWR0aCI6Ijw9MTQwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HOAzfyzqVfrNavv7e4O-L99IaAnAwX1tT2FQWADrxaM" width=30% height=30%>
-              <div class="overlay"><span>artsymii</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/dd6sei4-06772504-9a65-442a-8009-ba12f57fdfc5.png/v1/fill/w_250,h_350,strp/nadiya_deviant_stars_character_card_by_waver92_dd6sei4-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzUwIiwicGF0aCI6IlwvZlwvMzE3NjhmZWMtMzNiNi00NTJiLTkxNjctOWFjZjUxNTEwMmM0XC9kZDZzZWk0LTA2NzcyNTA0LTlhNjUtNDQyYS04MDA5LWJhMTJmNTdmZGZjNS5wbmciLCJ3aWR0aCI6Ijw9MjUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.VfsQWGcgV5iHLbbhINNa3DbWd0N79FNKpgLxDyYNQg0" width=30% height=30%>
-              <div class="overlay"><span>Waver92</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/ddqnr2u-3cd7dec3-2f5b-4a4f-8f2f-fcbd18beb3b4.png/v1/fill/w_750,h_628,strp/art_trade__pinky_s_performance_by_waver92_ddqnr2u-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjI4IiwicGF0aCI6IlwvZlwvMzE3NjhmZWMtMzNiNi00NTJiLTkxNjctOWFjZjUxNTEwMmM0XC9kZHFucjJ1LTNjZDdkZWMzLTJmNWItNGE0Zi04ZjJmLWZjYmQxOGJlYjNiNC5wbmciLCJ3aWR0aCI6Ijw9NzUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.eZkZQQXVnZKlO5-z9eIWslg4Uue0t1LZCk2ceIL5_DI" width=30% height=30%>
-              <div class="overlay"><span>Waver92</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/ddxfphx-87bd8dc9-aa3e-443f-9570-9fc6fdf44a6f.png/v1/fill/w_500,h_500,strp/deviant_stars__ssl_member_y___necrodiya_by_waver92_ddxfphx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvMzE3NjhmZWMtMzNiNi00NTJiLTkxNjctOWFjZjUxNTEwMmM0XC9kZHhmcGh4LTg3YmQ4ZGM5LWFhM2UtNDQzZi05NTcwLTlmYzZmZGY0NGE2Zi5wbmciLCJ3aWR0aCI6Ijw9NTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xBOYpEhK_gOqxkltBCRzypXRWzmN7Tf9PspoPeC4XpQ" width=30% height=30%>
-              <div class="overlay"><span>Waver92</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/39817211_wg2ikU7wEDbE8yO.png" width=30% height=30%>
-              <div class="overlay"><span>ANekitsunyanekos</span></div>
-            </li>
-            <li>
-              <img src="https://cdn.discordapp.com/attachments/744365842518507583/1000749867422994513/Art_Trade.png" width=30% height=30%>
-              <div class="overlay"><span>Kuro Shirobon</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d13c590-e54f-44a5-8d21-c5c4c3016cc9/dd6xhv7-aad46e15-c03c-40ad-9007-342874af8769.png/v1/fill/w_785,h_1019,strp/cute_alien_boi__by_coulden2017dx_dd6xhv7-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjA3NyIsInBhdGgiOiJcL2ZcLzhkMTNjNTkwLWU1NGYtNDRhNS04ZDIxLWM1YzRjMzAxNmNjOVwvZGQ2eGh2Ny1hYWQ0NmUxNS1jMDNjLTQwYWQtOTAwNy0zNDI4NzRhZjg3NjkucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.xGwENnQ61DuzIXnjeR6kw_-VzmV1upaVye6L-DFaZlg" width=30% height=30%>
-              <div class="overlay"><span>Coulden2017DX</span></div>
-            </li>
-            <li>
-              <img src="https://file.toyhou.se/images/13817879_53mScD7TqlFl6an.png" width=30% height=30%>
-              <div class="overlay"><span>ZeonSniper</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17334641_2NzMpK49Oo4f2vV.png" width=30% height=30%>
-              <div class="overlay"><span>ZeonSniper</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17334655_6cbG17pnR5q5BE9.png" width=30% height=30%>
-              <div class="overlay"><span>ZeonSniper</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46707717_ZjJh7FmwZFBlVGI.jpg" width=30% height=30%>
-              <div class="overlay"><span>ThePinkBunnyEmpire</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42373198_Bke9BxGrfONRrcF.jpg" width=30% height=30%>
-              <div class="overlay"><span>ThePinkBunnyEmpire</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42117967_QmJ2hFY2jVekAUI.png" width=30% height=30%>
-              <div class="overlay"><span>MaxiAndrew</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ec550e2-dcf9-48f2-ac06-3f4f42ac7894/dertwvr-ff885f44-3125-4f56-b0bf-b917d04628c7.gif/v1/fill/w_221,h_256,q_85,strp/mii_nadiya_spooky_month_dance_by_superyoshi5_dertwvr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2IiwicGF0aCI6IlwvZlwvM2VjNTUwZTItZGNmOS00OGYyLWFjMDYtM2Y0ZjQyYWM3ODk0XC9kZXJ0d3ZyLWZmODg1ZjQ0LTMxMjUtNGY1Ni1iMGJmLWI5MTdkMDQ2MjhjNy5naWYiLCJ3aWR0aCI6Ijw9MjIxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.20T2QEgQCQNaMMB3RN0iVr0a96wYaPDk3iXDqE99qXY" width=30% height=30%>
-              <div class="overlay"><span>Blixer Yoshi</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/det5q2t-92bd6b5a-0c66-43c2-89bb-0a573334f159.png/v1/fill/w_894,h_894,q_70,strp/art_trade__emolie_says_hi__by_waver92_det5q2t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAwMCIsInBhdGgiOiJcL2ZcLzMxNzY4ZmVjLTMzYjYtNDUyYi05MTY3LTlhY2Y1MTUxMDJjNFwvZGV0NXEydC05MmJkNmI1YS0wYzY2LTQzYzItODliYi0wYTU3MzMzNGYxNTkucG5nIiwid2lkdGgiOiI8PTEwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.NtBBphnJ4MBgS96PDgilA1V66Mo0TBh52xotdUDqZ0E" width=30% height=30%>
-              <div class="overlay"><span>Waver92</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46708020_wquCOq4Ulg1DoIN.png" width=30% height=30%>
-              <div class="overlay"><span>Jordanli04</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42117887_llbmE8ZS3S4J3mg.png?1637410826" width=30% height=30%>
-              <div class="overlay"><span>MaxiAndrew</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42118225_yrVrSoeHI6KTxpn.png" width=30% height=30%>
-              <div class="overlay"><span>MaxiAndrew</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c3ce9d2-3d0c-40f9-a8b6-ce2ea31aba8c/devvly4-3ccb9b61-4b6e-4213-87f9-7798c696fde2.png/v1/fill/w_965,h_828/nadipon_by_renkiniji_devvly4-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA5OCIsInBhdGgiOiJcL2ZcLzdjM2NlOWQyLTNkMGMtNDBmOS1hOGI2LWNlMmVhMzFhYmE4Y1wvZGV2dmx5NC0zY2NiOWI2MS00YjZlLTQyMTMtODdmOS03Nzk4YzY5NmZkZTIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dK0-746VVVBV1dyfNDSUSu_eVz_OqcAeHnKLid5mMR8" width=30% height=30%>
-              <div class="overlay"><span>RenkiNiji</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46707208_y6KoRte6fy9q18e.png" width=30% height=30%>
-              <div class="overlay"><span>SandyKim</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5eccabde-7ee2-4b17-b5ce-a912a9b0219a/dezmqhm-6f70b7db-185d-4891-ba53-50a4670ef6a2.png/v1/fill/w_668,h_623,strp/nadiya_by_foxtown2002_dezmqhm-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjIzIiwicGF0aCI6IlwvZlwvNWVjY2FiZGUtN2VlMi00YjE3LWI1Y2UtYTkxMmE5YjAyMTlhXC9kZXptcWhtLTZmNzBiN2RiLTE4NWQtNDg5MS1iYTUzLTUwYTQ2NzBlZjZhMi5wbmciLCJ3aWR0aCI6Ijw9NjY4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.oNTa1eXZKrUXHRgGEYDHhOU4tYw1fD-mVHVI2i3DHsg" width=30% height=30%>
-              <div class="overlay"><span>FoxTown2002</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46708224_yve3NGJ41LCiove.png" width=30% height=30%>
-              <div class="overlay"><span>AndersonLopess781</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5eccabde-7ee2-4b17-b5ce-a912a9b0219a/df0jrpr-a06ddca8-f940-4a3b-bd84-4e5e238f7894.png/v1/fill/w_841,h_650,strp/nadiya_pose_by_foxtown2002_df0jrpr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUwIiwicGF0aCI6IlwvZlwvNWVjY2FiZGUtN2VlMi00YjE3LWI1Y2UtYTkxMmE5YjAyMTlhXC9kZjBqcnByLWEwNmRkY2E4LWY5NDAtNGEzYi1iZDg0LTRlNWUyMzhmNzg5NC5wbmciLCJ3aWR0aCI6Ijw9ODQxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.f5FQcVWfTnHfhGHRd-R4OBp3WqwCXNouNdBuZLED2zI" width=30% height=30%>
-              <div class="overlay"><span>FoxTown2002</span></div>
-            </li>
-            <li>
-              <img src="https://pbs.twimg.com/media/FVrG8v8XwAAt3cL.jpg" width=30% height=30%>
-              <div class="overlay"><span>Snowby3D</span></div>
-            </li>
-            <li>
-              <img src="https://pbs.twimg.com/media/FV2vPSDVsAAPVpf.jpg" width=30% height=30%>
-              <div class="overlay"><span>Dissatisfied Gentleman</span></div>
-            </li>
-            <li>
-              <img src="https://cdn.discordapp.com/attachments/744365842518507583/991948344219947029/224_202206301106413.png" width=30% height=30%>
-              <div class="overlay"><span>Dissatisfied Gentleman</span></div>
-            </li>
-            <li>
-              <img src="https://cdn.discordapp.com/attachments/744365842518507583/951905634595532801/247_20220311181232.png" width=30% height=30%>
-              <div class="overlay"><span>Vee Tee</span></div>
-            </li>
-            <li>
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7166aa19-c713-4222-bec1-c06bf086a6e4/df273xj-efb4ea4f-ea32-4004-87da-1a67a4c79d17.png/v1/fill/w_1192,h_670,q_70,strp/nadiya__orange_ball__pranks_dr__lololo_by_minhpham2005_df273xj-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI1MCIsInBhdGgiOiJcL2ZcLzcxNjZhYTE5LWM3MTMtNDIyMi1iZWMxLWMwNmJmMDg2YTZlNFwvZGYyNzN4ai1lZmI0ZWE0Zi1lYTMyLTQwMDQtODdkYS0xYTY3YTRjNzlkMTcucG5nIiwid2lkdGgiOiI8PTQwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CFCnsC2bVswGolhSiyFRI_IekDlCEnw3WYRcyGAp6cY" width=30% height=30%>
-              <div class="overlay"><span>MinhPham2005</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46707958_XniqDAPXhkWsfDS.png" width=30% height=30%>
-              <div class="overlay"><span>ZeonSniper</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42373215_2ejiWVHg99bvoix.png" width=30% height=30%>
-              <div class="overlay"><span>Waver92</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49181189_7BN5sCtwUd4liwN.png" width=30% height=30%>
-              <div class="overlay"><span>Jordanli04</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/50104375_3KPGs2k24nMNhSh.png" width=30% height=30%>
-              <div class="overlay"><span>MaxiAndrew</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49181113_ZtijTYrYoxTZNUi.png" width=30% height=30%>
-              <div class="overlay"><span>MinhPham2005</span></div>
-            </li>
-            <li>
-              <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49181124_un0fjbMoEM7Gqpe.png" width=30% height=30%>
-              <div class="overlay"><span>MinhPham2005</span></div>
-            </li>
-            <li>
-              <img src="./Assets/placeholder.png" width=30% height=30%>
-              <div class="overlay"><span>Placeholder</span></div>
-            </li>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://cdn.discordapp.com/attachments/958281465903317002/972092798926983198/nadiya.png" width=30% height=30%>
+                <div class="overlay"><span>Invinciblelollipop</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08f1f431-7652-4e4c-b5af-d2040c95d3d7/dejtnow-9f73aae4-a31c-40d6-9da9-1f1e94c1dd3a.png/v1/fill/w_1264,h_632,q_70,strp/g__crewmate_buddies_by_artsy_mii_dejtnow-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzAwIiwicGF0aCI6IlwvZlwvMDhmMWY0MzEtNzY1Mi00ZTRjLWI1YWYtZDIwNDBjOTVkM2Q3XC9kZWp0bm93LTlmNzNhYWU0LWEzMWMtNDBkNi05ZGE5LTFmMWU5NGMxZGQzYS5wbmciLCJ3aWR0aCI6Ijw9MTQwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HOAzfyzqVfrNavv7e4O-L99IaAnAwX1tT2FQWADrxaM" width=30% height=30%>
+                <div class="overlay"><span>artsymii</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/dd6sei4-06772504-9a65-442a-8009-ba12f57fdfc5.png/v1/fill/w_250,h_350,strp/nadiya_deviant_stars_character_card_by_waver92_dd6sei4-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzUwIiwicGF0aCI6IlwvZlwvMzE3NjhmZWMtMzNiNi00NTJiLTkxNjctOWFjZjUxNTEwMmM0XC9kZDZzZWk0LTA2NzcyNTA0LTlhNjUtNDQyYS04MDA5LWJhMTJmNTdmZGZjNS5wbmciLCJ3aWR0aCI6Ijw9MjUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.VfsQWGcgV5iHLbbhINNa3DbWd0N79FNKpgLxDyYNQg0" width=30% height=30%>
+                <div class="overlay"><span>Waver92</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/ddqnr2u-3cd7dec3-2f5b-4a4f-8f2f-fcbd18beb3b4.png/v1/fill/w_750,h_628,strp/art_trade__pinky_s_performance_by_waver92_ddqnr2u-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjI4IiwicGF0aCI6IlwvZlwvMzE3NjhmZWMtMzNiNi00NTJiLTkxNjctOWFjZjUxNTEwMmM0XC9kZHFucjJ1LTNjZDdkZWMzLTJmNWItNGE0Zi04ZjJmLWZjYmQxOGJlYjNiNC5wbmciLCJ3aWR0aCI6Ijw9NzUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.eZkZQQXVnZKlO5-z9eIWslg4Uue0t1LZCk2ceIL5_DI" width=30% height=30%>
+                <div class="overlay"><span>Waver92</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/ddxfphx-87bd8dc9-aa3e-443f-9570-9fc6fdf44a6f.png/v1/fill/w_500,h_500,strp/deviant_stars__ssl_member_y___necrodiya_by_waver92_ddxfphx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvMzE3NjhmZWMtMzNiNi00NTJiLTkxNjctOWFjZjUxNTEwMmM0XC9kZHhmcGh4LTg3YmQ4ZGM5LWFhM2UtNDQzZi05NTcwLTlmYzZmZGY0NGE2Zi5wbmciLCJ3aWR0aCI6Ijw9NTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xBOYpEhK_gOqxkltBCRzypXRWzmN7Tf9PspoPeC4XpQ" width=30% height=30%>
+                <div class="overlay"><span>Waver92</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/39817211_wg2ikU7wEDbE8yO.png" width=30% height=30%>
+                <div class="overlay"><span>ANekitsunyanekos</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://cdn.discordapp.com/attachments/744365842518507583/1000749867422994513/Art_Trade.png" width=30% height=30%>
+                <div class="overlay"><span>Kuro Shirobon</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d13c590-e54f-44a5-8d21-c5c4c3016cc9/dd6xhv7-aad46e15-c03c-40ad-9007-342874af8769.png/v1/fill/w_785,h_1019,strp/cute_alien_boi__by_coulden2017dx_dd6xhv7-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjA3NyIsInBhdGgiOiJcL2ZcLzhkMTNjNTkwLWU1NGYtNDRhNS04ZDIxLWM1YzRjMzAxNmNjOVwvZGQ2eGh2Ny1hYWQ0NmUxNS1jMDNjLTQwYWQtOTAwNy0zNDI4NzRhZjg3NjkucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.xGwENnQ61DuzIXnjeR6kw_-VzmV1upaVye6L-DFaZlg" width=30% height=30%>
+                <div class="overlay"><span>Coulden2017DX</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://file.toyhou.se/images/13817879_53mScD7TqlFl6an.png" width=30% height=30%>
+                <div class="overlay"><span>ZeonSniper</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17334641_2NzMpK49Oo4f2vV.png" width=30% height=30%>
+                <div class="overlay"><span>ZeonSniper</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17334655_6cbG17pnR5q5BE9.png" width=30% height=30%>
+                <div class="overlay"><span>ZeonSniper</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46707717_ZjJh7FmwZFBlVGI.jpg" width=30% height=30%>
+                <div class="overlay"><span>ThePinkBunnyEmpire</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42373198_Bke9BxGrfONRrcF.jpg" width=30% height=30%>
+                <div class="overlay"><span>ThePinkBunnyEmpire</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42117967_QmJ2hFY2jVekAUI.png" width=30% height=30%>
+                <div class="overlay"><span>MaxiAndrew</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ec550e2-dcf9-48f2-ac06-3f4f42ac7894/dertwvr-ff885f44-3125-4f56-b0bf-b917d04628c7.gif/v1/fill/w_221,h_256,q_85,strp/mii_nadiya_spooky_month_dance_by_superyoshi5_dertwvr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2IiwicGF0aCI6IlwvZlwvM2VjNTUwZTItZGNmOS00OGYyLWFjMDYtM2Y0ZjQyYWM3ODk0XC9kZXJ0d3ZyLWZmODg1ZjQ0LTMxMjUtNGY1Ni1iMGJmLWI5MTdkMDQ2MjhjNy5naWYiLCJ3aWR0aCI6Ijw9MjIxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.20T2QEgQCQNaMMB3RN0iVr0a96wYaPDk3iXDqE99qXY" width=30% height=30%>
+                <div class="overlay"><span>Blixer Yoshi</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31768fec-33b6-452b-9167-9acf515102c4/det5q2t-92bd6b5a-0c66-43c2-89bb-0a573334f159.png/v1/fill/w_894,h_894,q_70,strp/art_trade__emolie_says_hi__by_waver92_det5q2t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAwMCIsInBhdGgiOiJcL2ZcLzMxNzY4ZmVjLTMzYjYtNDUyYi05MTY3LTlhY2Y1MTUxMDJjNFwvZGV0NXEydC05MmJkNmI1YS0wYzY2LTQzYzItODliYi0wYTU3MzMzNGYxNTkucG5nIiwid2lkdGgiOiI8PTEwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.NtBBphnJ4MBgS96PDgilA1V66Mo0TBh52xotdUDqZ0E" width=30% height=30%>
+                <div class="overlay"><span>Waver92</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46708020_wquCOq4Ulg1DoIN.png" width=30% height=30%>
+                <div class="overlay"><span>Jordanli04</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42117887_llbmE8ZS3S4J3mg.png?1637410826" width=30% height=30%>
+                <div class="overlay"><span>MaxiAndrew</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42118225_yrVrSoeHI6KTxpn.png" width=30% height=30%>
+                <div class="overlay"><span>MaxiAndrew</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c3ce9d2-3d0c-40f9-a8b6-ce2ea31aba8c/devvly4-3ccb9b61-4b6e-4213-87f9-7798c696fde2.png/v1/fill/w_965,h_828/nadipon_by_renkiniji_devvly4-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA5OCIsInBhdGgiOiJcL2ZcLzdjM2NlOWQyLTNkMGMtNDBmOS1hOGI2LWNlMmVhMzFhYmE4Y1wvZGV2dmx5NC0zY2NiOWI2MS00YjZlLTQyMTMtODdmOS03Nzk4YzY5NmZkZTIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dK0-746VVVBV1dyfNDSUSu_eVz_OqcAeHnKLid5mMR8" width=30% height=30%>
+                <div class="overlay"><span>RenkiNiji</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46707208_y6KoRte6fy9q18e.png" width=30% height=30%>
+                <div class="overlay"><span>SandyKim</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5eccabde-7ee2-4b17-b5ce-a912a9b0219a/dezmqhm-6f70b7db-185d-4891-ba53-50a4670ef6a2.png/v1/fill/w_668,h_623,strp/nadiya_by_foxtown2002_dezmqhm-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjIzIiwicGF0aCI6IlwvZlwvNWVjY2FiZGUtN2VlMi00YjE3LWI1Y2UtYTkxMmE5YjAyMTlhXC9kZXptcWhtLTZmNzBiN2RiLTE4NWQtNDg5MS1iYTUzLTUwYTQ2NzBlZjZhMi5wbmciLCJ3aWR0aCI6Ijw9NjY4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.oNTa1eXZKrUXHRgGEYDHhOU4tYw1fD-mVHVI2i3DHsg" width=30% height=30%>
+                <div class="overlay"><span>FoxTown2002</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46708224_yve3NGJ41LCiove.png" width=30% height=30%>
+                <div class="overlay"><span>AndersonLopess781</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5eccabde-7ee2-4b17-b5ce-a912a9b0219a/df0jrpr-a06ddca8-f940-4a3b-bd84-4e5e238f7894.png/v1/fill/w_841,h_650,strp/nadiya_pose_by_foxtown2002_df0jrpr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUwIiwicGF0aCI6IlwvZlwvNWVjY2FiZGUtN2VlMi00YjE3LWI1Y2UtYTkxMmE5YjAyMTlhXC9kZjBqcnByLWEwNmRkY2E4LWY5NDAtNGEzYi1iZDg0LTRlNWUyMzhmNzg5NC5wbmciLCJ3aWR0aCI6Ijw9ODQxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.f5FQcVWfTnHfhGHRd-R4OBp3WqwCXNouNdBuZLED2zI" width=30% height=30%>
+                <div class="overlay"><span>FoxTown2002</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://pbs.twimg.com/media/FVrG8v8XwAAt3cL.jpg" width=30% height=30%>
+                <div class="overlay"><span>Snowby3D</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://pbs.twimg.com/media/FV2vPSDVsAAPVpf.jpg" width=30% height=30%>
+                <div class="overlay"><span>Dissatisfied Gentleman</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://cdn.discordapp.com/attachments/744365842518507583/991948344219947029/224_202206301106413.png" width=30% height=30%>
+                <div class="overlay"><span>Dissatisfied Gentleman</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://cdn.discordapp.com/attachments/744365842518507583/951905634595532801/247_20220311181232.png" width=30% height=30%>
+                <div class="overlay"><span>Vee Tee</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7166aa19-c713-4222-bec1-c06bf086a6e4/df273xj-efb4ea4f-ea32-4004-87da-1a67a4c79d17.png/v1/fill/w_1192,h_670,q_70,strp/nadiya__orange_ball__pranks_dr__lololo_by_minhpham2005_df273xj-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI1MCIsInBhdGgiOiJcL2ZcLzcxNjZhYTE5LWM3MTMtNDIyMi1iZWMxLWMwNmJmMDg2YTZlNFwvZGYyNzN4ai1lZmI0ZWE0Zi1lYTMyLTQwMDQtODdkYS0xYTY3YTRjNzlkMTcucG5nIiwid2lkdGgiOiI8PTQwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CFCnsC2bVswGolhSiyFRI_IekDlCEnw3WYRcyGAp6cY" width=30% height=30%>
+                <div class="overlay"><span>MinhPham2005</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46707958_XniqDAPXhkWsfDS.png" width=30% height=30%>
+                <div class="overlay"><span>ZeonSniper</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/42373215_2ejiWVHg99bvoix.png" width=30% height=30%>
+                <div class="overlay"><span>Waver92</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49181189_7BN5sCtwUd4liwN.png" width=30% height=30%>
+                <div class="overlay"><span>Jordanli04</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/50104375_3KPGs2k24nMNhSh.png" width=30% height=30%>
+                <div class="overlay"><span>MaxiAndrew</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49181113_ZtijTYrYoxTZNUi.png" width=30% height=30%>
+                <div class="overlay"><span>MinhPham2005</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49181124_un0fjbMoEM7Gqpe.png" width=30% height=30%>
+                <div class="overlay"><span>MinhPham2005</span></div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img src="./Assets/placeholder.png" width=30% height=30%>
+                <div class="overlay"><span>Placeholder</span></div>
+              </div>
+            </div>
           </ul>
         </div>
       </div>
