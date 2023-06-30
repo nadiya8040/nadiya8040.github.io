@@ -2,109 +2,109 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 @font-face {
-  font-family: Pearl;
-  src: url(../Assets/TaiwanPearl.ttf);
+    font-family: Pearl;
+    src: url(../Assets/TaiwanPearl.ttf);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Pearl, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Pearl, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
-  background: url(../Assets/Title.png) fixed center top;
-  background-size: 100%;
+    background-color: white;
+    color: black;
+    font-family: Verdana;
+    background: url(../Assets/Title.png) fixed center top;
+    background-size: 100%;
 }
 
 .img-limiter {
-  width: 100%;
+    width: 100%;
 }
 
 .button-img {
-  max-width: 60%;
+    max-width: 60%;
 }
 
 .link {
-  color: #FF7F00;
+    color: #FF7F00;
 }
 
 .link:hover {
-  color: #FFB2FF;
+    color: #FFB2FF;
 }
 
 .introduction,
 .fanarts {
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .banner {
-  border-radius: 24px;
-  background: rgba(30, 58, 138, 0.95);
-  display: flex;
-  justify-content: center;
-  max-width: 1024px;
-  text-align: center;
-  margin: 16px;
-  color: white;
-  border: 12px solid #3B82F6;
+    border-radius: 24px;
+    background: rgba(30, 58, 138, 0.95);
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    text-align: center;
+    margin: 16px;
+    color: white;
+    border: 12px solid #3B82F6;
 }
 
 .banner_fr {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .banner>div:nth-child(1) {
-  flex-grow: 2;
+    flex-grow: 2;
 }
 
 .banner>div:nth-child(2) {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .logo {
-  margin-left: 16px;
+    margin-left: 16px;
 }
 
 .offset {
-  height: 56px;
+    height: 56px;
 }
 
 .title {
-  display: flex;
+    display: flex;
 }
 
 .gap {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .banner_img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .nadiverse {
-  text-align: center;
+    text-align: center;
 }
 
 .main {
-  display: flex;
-  height: 400px;
-  margin: 16px;
+    display: flex;
+    height: 400px;
+    margin: 16px;
 }
 
 .boundary {
-  flex-grow: 1;
-  margin-right: 8px;
+    flex-grow: 1;
+    margin-right: 8px;
 }
 
 .boundary,
@@ -114,180 +114,180 @@ body {
 .introduction,
 .games,
 .fanarts {
-  border-radius: 24px;
-  background: rgba(23, 23, 23, 0.95);
-  padding: 16px;
-  color: white;
+    border-radius: 24px;
+    background: rgba(23, 23, 23, 0.95);
+    padding: 16px;
+    color: white;
 }
 
 .soundcloud {
-  flex-grow: 2;
-  flex-basis: 50%;
-  margin-left: 8px;
+    flex-grow: 2;
+    flex-basis: 50%;
+    margin-left: 8px;
 }
 
 .soundcloud_compoment {
-  height: 288px;
+    height: 288px;
 }
 
 .social_links,
 .partners {
-  text-align: center;
-  margin: 16px;
+    text-align: center;
+    margin: 16px;
 }
 
 .partners>div {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .partners>div>a {
-  display: block;
-  margin: 16px;
+    display: block;
+    margin: 16px;
 }
 
 .partners>div>a>img {
-  max-height: 144px;
+    max-height: 144px;
 }
 
 .links {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .links>li {
-  width: max-content;
-  margin: auto 16px;
+    width: max-content;
+    margin: auto 16px;
 }
 
 .copyright {
-  text-align: center;
+    text-align: center;
 }
 
 .introduction,
 .games,
 .fanarts {
-  margin: 16px;
-  padding: 16px;
+    margin: 16px;
+    padding: 16px;
 }
 
 .game {
-  display: flex;
-  max-width: 1024px;
-  margin: 16px auto;
+    display: flex;
+    max-width: 1024px;
+    margin: 16px auto;
 }
 
 .game-detail {
-  margin-left: 16px;
-  display: flex;
-  flex-direction: column;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .game-pic {
-  height: 256px;
-  width: 256px;
-  object-fit: contain;
+    height: 256px;
+    width: 256px;
+    object-fit: contain;
 }
 
 @media (max-width: 1024px) {
-  body {
-    background-size: auto 100%;
-  }
+    body {
+        background-size: auto 100%;
+    }
 }
 
 @media(max-width: 992px) {
 
 
-  .main {
-    flex-direction: column;
-    height: auto;
-  }
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
 
-  .soundcloud,
-  .boundary {
-    width: 100%;
-    margin: 16px;
-    margin-left: unset;
-    margin-right: unset;
-  }
+    .soundcloud,
+    .boundary {
+        width: 100%;
+        margin: 16px;
+        margin-left: unset;
+        margin-right: unset;
+    }
 
-  .soundcloud>h1,
-  .boundary>h1 {
-    text-align: center;
-  }
+    .soundcloud>h1,
+    .boundary>h1 {
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
-  .banner {
-    flex-direction: column;
-  }
+    .banner {
+        flex-direction: column;
+    }
 
-  .game {
-    flex-direction: column;
-  }
+    .game {
+        flex-direction: column;
+    }
 
-  .game-detail>gap {
-    flex-flow: 0;
-  }
+    .game-detail>gap {
+        flex-flow: 0;
+    }
 
-  .game-pic {
-    max-width: 256px;
-    max-height: 256px;
-    margin: auto;
-  }
+    .game-pic {
+        max-width: 256px;
+        max-height: 256px;
+        margin: auto;
+    }
 }
 
 @media (min-width: 1296px) {
 
-  .main,
-  .social_links,
-  .partners,
-  .introduction,
-  .games,
-  .fanarts {
-    width: 1280px;
-    margin: 16px auto;
-  }
+    .main,
+    .social_links,
+    .partners,
+    .introduction,
+    .games,
+    .fanarts {
+        width: 1280px;
+        margin: 16px auto;
+    }
 
-  .title {
-    width: 1280px;
-    margin: auto;
-  }
+    .title {
+        width: 1280px;
+        margin: auto;
+    }
 }
 
 ._in_up {
-  animation: in_up 768ms;
+    animation: in_up 768ms;
 }
 
 ._in_down {
-  animation: in_down 768ms;
+    animation: in_down 768ms;
 }
 
 @keyframes in_down {
-  0% {
-    opacity: 0;
-    top: 32px;
-    position: relative;
-  }
+    0% {
+        opacity: 0;
+        top: 32px;
+        position: relative;
+    }
 
-  100% {
-    opacity: 100%;
-    top: 0;
-    position: relative;
-  }
+    100% {
+        opacity: 100%;
+        top: 0;
+        position: relative;
+    }
 }
 
 @keyframes in_up {
-  0% {
-    opacity: 0;
-    bottom: 32px;
-    position: relative;
-  }
+    0% {
+        opacity: 0;
+        bottom: 32px;
+        position: relative;
+    }
 
-  100% {
-    opacity: 100%;
-    bottom: 0;
-    position: relative;
-  }
+    100% {
+        opacity: 100%;
+        bottom: 0;
+        position: relative;
+    }
 }
