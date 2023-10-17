@@ -11,9 +11,12 @@ function showFooter() {
 '         </a>. Reconstructed by'+
 '         <a href="https://kirbysfan.github.io/kfan_homepage/">'+
 '             Kirbysfan'+
-'         </a>. Proudly created with'+
+'         </a>. Formerly created with'+
 '         <a href=https://neocities.org>'+
 '             Neocities'+
+'         </a>. Proudly hosted by'+
+'         <a href=https://github.com>'+
+'             GitHub'+
 '         </a>.'+
 '     </footer>';
     footer.appendChild(footer_div);
