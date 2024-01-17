@@ -5,7 +5,7 @@ function showFooter() {
     footer_div.innerHTML =  
 '     <footer class="copyright">©'+
 '         <script src="Copyright.js"></script>'+
-'             by Nadiya Bloby Origia, Slightly edited by'+
+'             by nadiya8040, Slightly edited by'+
 '         <a href="https://twitter.com/Jirachi6774">'+
 '             Jirachi6774'+
 '         </a>. Reconstructed by'+
