@@ -4,13 +4,16 @@ function showFooter() {
 	footer_div.classname = "globalFooter";
 	footer_div.innerHTML =  
 '	<footer class="copyright">©'+
-'		<script src="Copyright.js"></script>'+
+'		<script src="./Copyright.js"></script>'+
 '			by nadiya8040, Slightly edited by'+
 '		<a href="https://twitter.com/Jirachi6774">'+
 '			Jirachi6774'+
 '		</a>. Reconstructed by'+
 '		<a href="https://kirbysfan.github.io/kfan_homepage/">'+
 '			Kirbysfan'+
+'		</a>. Favicon by'+
+'		<a href="https://cara.app/deefanatic600">'+
+'			DeeFanatic600'+
 '		</a>. Formerly created with'+
 '		<a href=https://neocities.org>'+
 '			Neocities'+
