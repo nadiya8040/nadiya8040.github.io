@@ -5,7 +5,7 @@ function showFooter() {
 	const date = new Date();
 	let year = date.getFullYear();
 	footer_div.innerHTML =
-		'	<footer class="copyright">©' +
+		'	<footer class="copyright">© 2022 - ' +
 		year +
 		'			by nadiya8040, Slightly edited by' +
 		'		<a href="https://twitter.com/Jirachi6774">' +
